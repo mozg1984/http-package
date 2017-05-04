@@ -20,7 +20,7 @@ begin
   ...
   */
   
-  http_pkg.post_request('http://localhost:8080/', '', response);  
+  http_pkg.post_request('http://localhost:8080/', 'some-post-data', response);  
   
   /* 2. GET request */
   
